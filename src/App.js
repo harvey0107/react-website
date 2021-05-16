@@ -1,9 +1,8 @@
 import './App.css';
-import { Button } from 'antd';
 import 'antd/dist/antd.css';
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu } from 'antd';
 
-const { Header, Content, Footer } = Layout;
+const { Header } = Layout;
 
 function App() {
   return (
