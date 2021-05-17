@@ -78,12 +78,12 @@ header
 
 .header .logo {
   font-size: 22px;
-  text-transform: uppercase;
+
   font-weight: 400;
 }
 
 .header .logo .fas {
-  color: #1890ff;
+  color: black;
   margin: 0 5px 0 0;
   font-size: 28px;
 }

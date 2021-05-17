@@ -5,8 +5,11 @@ function AppHeader() {
     return (
         <div className="container-fluid">
             <div className="header">
-                <div className="logo" />
-                    <Menu mode="horizontal" defaultSelectedKeys={['1']}>
+                <div className="logo">
+                    <i class="fas fa-cogs"></i>
+                    <a href=''>TechGeek</a>
+                </div>
+                    <Menu mode="horizontal" defaultSelectedKeys={['home']}>
                         <Menu.Item key="home">Home</Menu.Item>
                         <Menu.Item key="about">About</Menu.Item>
                         <Menu.Item key="features">Features</Menu.Item>
