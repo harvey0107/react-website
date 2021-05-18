@@ -24,21 +24,21 @@ function AppHero() {
     return (
         <div className='heroBlock'>
             <Carousel>
-                {items.map(item => {
-                    return(
-                        <div className='container-fluid'>
-                            <div className='content'>
-                                <h3>{item.title}</h3>
-                                <p>{item.content}</p>
-                                    <div className='butHolder'>
-                                        <Button type="primary" size="large">Learn More</Button>
-                                        <Button size="large"><i className="fas fa-desktop"></i> Watch a Demo</Button>
-                                    </div>    
-                            </div>
-                        </div>
-                    );
-                })}
-            </Carousel>
+        {items.map(item => {
+          return (
+            <div key={item.key} className="container-fluid">
+              <div className="content">
+                <h3>{item.title}</h3>
+                <p>{item.content}</p>
+                <div className="btnHolder">
+                  <Button type="primary" size="large">Learn More</Button>
+                  <Button size="large"><i className="fas fa-desktop"></i> Watch a Demo</Button>
+                </div>
+              </div>
+            </div>  
+          );
+        })}
+      </Carousel>
         </div>
     );
 }

@@ -206,9 +206,6 @@ hero
 
 .heroBlock .container-fluid {
   display: block !important;
-  color: white;
-  font-size: large;
-  font-weight: 700;
 }
 
 .heroBlock .ant-carousel,
@@ -236,10 +233,14 @@ hero
   font-size: 30px;
   line-height: 1.2;
   margin: 0 0 30px;
+  color: white;
 }
 
 .heroBlock p {
   margin: 0 0 30px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
 }
 
 .heroBlock .btnHolder {
