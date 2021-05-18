@@ -1,9 +1,10 @@
 import React from 'react'
+import AppHero from '../components/home/Hero'
 
 function AppHome() {
     return (
-        <div>
-            <h1>I am Home</h1>
+        <div className='main'>
+            <AppHero/>
         </div>
     )
 }
