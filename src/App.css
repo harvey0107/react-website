@@ -201,10 +201,14 @@ hero
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
+  color: white;
 }
 
 .heroBlock .container-fluid {
   display: block !important;
+  color: white;
+  font-size: large;
+  font-weight: 700;
 }
 
 .heroBlock .ant-carousel,
