@@ -36,9 +36,14 @@ function AppAbout() {
                 <Row gutter={[16, 16]}>
                     {items.map(item => {
                         return (
-                            <Col span={8}>
-                                {item.title}
-                                {item.content}
+                            <Col span={8} key={item.key}>
+                                <div className='content'>
+                                    <div className='icon'>
+                                        {item.icon}
+                                    </div>
+                                <h3>{item.title}</h3>
+                                <p>{item.content}</p>
+                                </div>
                             </Col>
                             
                         );
