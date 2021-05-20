@@ -14,6 +14,10 @@ function AppFeature() {
     return (
         <div className='block featureBlock bgGray'>
               <div className='container-fluid'>
+                  <div className='titleHolder'>
+                    <h2>Key Features and Benefits</h2>
+                    <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+                </div>
               <Row gutter={[16, 16]}>
                     <Col span={8}>
                     <Card
